@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactJsLabs.ClientWebApp", "ReactJsLabs.ClientWebApp\ReactJsLabs.ClientWebApp.csproj", "{FF702D16-EE25-4F0D-8E92-212B3AA6EFDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServicesDirectory.Client", "ServicesDirectory.Client\ServicesDirectory.Client.csproj", "{5854DEDF-1E63-488F-8C67-74969834A8A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServicesDirectory.WebAPI", "ServicesDirectory.WebAPI\ServicesDirectory.WebAPI.csproj", "{396C073C-E22A-4384-9E63-5780B56F1B26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{EDEC4D6A-5C2D-4440-8E72-4AF9FDDA7F5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServicesDirectory", "ServicesDirectory", "{09D371DF-0D60-4AE2-ADC9-80BF3AF053FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreetingService", "GreetingService\GreetingService.csproj", "{9C3499A3-73DF-4157-9438-BDD4577D3A8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherService", "WeatherService\WeatherService.csproj", "{07B78A5D-AA4B-4889-9CE0-5D454A9EFC79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF702D16-EE25-4F0D-8E92-212B3AA6EFDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF702D16-EE25-4F0D-8E92-212B3AA6EFDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF702D16-EE25-4F0D-8E92-212B3AA6EFDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF702D16-EE25-4F0D-8E92-212B3AA6EFDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5854DEDF-1E63-488F-8C67-74969834A8A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5854DEDF-1E63-488F-8C67-74969834A8A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5854DEDF-1E63-488F-8C67-74969834A8A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5854DEDF-1E63-488F-8C67-74969834A8A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{396C073C-E22A-4384-9E63-5780B56F1B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396C073C-E22A-4384-9E63-5780B56F1B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396C073C-E22A-4384-9E63-5780B56F1B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396C073C-E22A-4384-9E63-5780B56F1B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C3499A3-73DF-4157-9438-BDD4577D3A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C3499A3-73DF-4157-9438-BDD4577D3A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C3499A3-73DF-4157-9438-BDD4577D3A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C3499A3-73DF-4157-9438-BDD4577D3A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B78A5D-AA4B-4889-9CE0-5D454A9EFC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B78A5D-AA4B-4889-9CE0-5D454A9EFC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B78A5D-AA4B-4889-9CE0-5D454A9EFC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B78A5D-AA4B-4889-9CE0-5D454A9EFC79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5854DEDF-1E63-488F-8C67-74969834A8A2} = {09D371DF-0D60-4AE2-ADC9-80BF3AF053FC}
+		{396C073C-E22A-4384-9E63-5780B56F1B26} = {09D371DF-0D60-4AE2-ADC9-80BF3AF053FC}
+		{9C3499A3-73DF-4157-9438-BDD4577D3A8C} = {EDEC4D6A-5C2D-4440-8E72-4AF9FDDA7F5E}
+		{07B78A5D-AA4B-4889-9CE0-5D454A9EFC79} = {EDEC4D6A-5C2D-4440-8E72-4AF9FDDA7F5E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0530486-F80F-409A-94AC-F1A05F3DA8B4}
+	EndGlobalSection
+EndGlobal

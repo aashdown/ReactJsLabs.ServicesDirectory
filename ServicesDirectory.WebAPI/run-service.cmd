@@ -1,0 +1,1 @@
+dotnet .\bin\Debug\netcoreapp2.2\ServicesDirectory.WebAPI.dll --urls "http://localhost:58801"

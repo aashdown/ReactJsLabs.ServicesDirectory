@@ -1,0 +1,1 @@
+dotnet .\bin\Debug\netcoreapp2.2\WeatherService.dll --urls "http://localhost:58802"
