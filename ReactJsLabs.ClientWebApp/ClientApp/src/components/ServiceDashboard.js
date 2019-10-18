@@ -53,7 +53,7 @@ export class ServiceDashboard extends Component {
                                     <td>{s.serviceName}</td>
                                     <td>{s.endpoint}</td>
                                     <td>{s.lastUpdate}</td>
-                                    <td>{s.status}?</td>
+                                    <td>{s.status}</td>
                                 </tr>
                             )
                             : <tr><td colSpan={4}><i>No Data</i></td></tr>

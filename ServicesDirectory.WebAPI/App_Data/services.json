@@ -1,1 +1,17 @@
-{"LastUpdate":"2019-10-18T00:10:22.6651942+01:00","Services":[{"Name":"WeatherService","Endpoint":"http://localhost:58802","LastUpdate":"2019-10-18T00:10:22.6651912+01:00","Status":"OK"}]}
+{
+  "LastUpdate": "2019-10-18T16:32:07.090586+01:00",
+  "Services": [
+    {
+      "ServiceName": "WeatherService",
+      "Endpoint": "http://localhost:58802",
+      "LastUpdate": "2019-10-18T15:30:11.3359977+01:00",
+      "Status": "OK"
+    },
+    {
+      "ServiceName": "GreetingService",
+      "Endpoint": "http://localhost:58803",
+      "LastUpdate": "2019-10-18T16:32:07.0905839+01:00",
+      "Status": "OK"
+    }
+  ]
+}

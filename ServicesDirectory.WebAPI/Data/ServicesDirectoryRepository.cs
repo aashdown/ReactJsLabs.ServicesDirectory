@@ -60,16 +60,16 @@ namespace ServicesDirectory.Data
 
         public DirectoryModel.Service GetService(string serviceName)
         {
-            return _directoryModel?.Services?.FirstOrDefault(s => s.Name == serviceName);
+            return _directoryModel?.Services?.FirstOrDefault(s => s.ServiceName == serviceName);
         }
 
         public void AddOrUpdate(DirectoryModel.Service service)
         {
             SaveAfterUpdate(d =>
             {
-                if (d.Services.Any(s => s.Name == service.Name))
+                if (d.Services.Any(s => s.ServiceName == service.ServiceName))
                 {
-                    d.Services.RemoveAll(s => s.Name == service.Name);
+                    d.Services.RemoveAll(s => s.ServiceName == service.ServiceName);
                 }
 
                 service.LastUpdate = DateTime.Now;
@@ -85,7 +85,7 @@ namespace ServicesDirectory.Data
         {
             SaveAfterUpdate(d =>
             {
-                d.Services?.RemoveAll(s => s.Name == serviceName);
+                d.Services?.RemoveAll(s => s.ServiceName == serviceName);
                 return true;
             });
         }

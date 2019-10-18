@@ -84,7 +84,7 @@ namespace ServicesDirectory.Client
 
                 var service = new DirectoryModel.Service()
                 {
-                    Name = _options.ServiceName,
+                    ServiceName = _options.ServiceName,
                     Endpoint = _options.ServiceUrl,
                     LastUpdate = DateTime.Now,
                     Status = "OK"
